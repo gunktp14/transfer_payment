@@ -64,7 +64,7 @@ session_start();
                     </p>
                     <p style="font-size:small;">บัญชีปลายทาง : <?= $_SESSION['account_no']?></p>
                     <p style="font-size:small;">ชื่อ-นามสกุล : <?= $_SESSION['first_name']?>-<?= $_SESSION['last_name']?></p>
-                    <p style="font-size:small;">จำนวนเงินที่โอน: <?= $_SESSION['account_no']?> บาท</p>
+                    <p style="font-size:small;">จำนวนเงินที่โอน: <?= $_SESSION['amount']?> บาท</p>
             </div>
 
 
